@@ -8,4 +8,4 @@ Abrí `index.html` en un navegador, o serví la carpeta con `python3 -m http.ser
 
 ## Publicar
 
-Este PR solo entrega el código. Tras el merge, conectar `main` a un origen estático y agregar `/snake` al Worker del dominio. El prefijo más específico debe quedar antes de uno más amplio. Comprobar el juego en escritorio y móvil y que el resto de las rutas continúen intactas.
+Está en vivo en https://lucasramos.uy/snake/: el Worker del dominio enruta `/snake` a un origen estático con el contenido de `main`. Los archivos usan rutas relativas, así que la misma carpeta sirve tanto local como en producción.
